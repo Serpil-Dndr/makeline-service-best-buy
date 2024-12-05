@@ -33,7 +33,7 @@ services:
     networks:
       - backend_services
   order-service:
-    image: ramymohamed/order-service-l8:latest
+    image: serpild/order-service:latest
     container_name: 'order-service'
     restart: always
     ports:
